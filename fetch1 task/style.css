@@ -1,0 +1,15 @@
+body{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
+    padding: 10px;
+    text-align: center;
+    gap: 1rem;
+}
+.container{
+    background-color: pink;
+    box-shadow: 3px 3px 10px 0px rgb(168, 155, 139);
+    overflow:scroll;
+    max-width:50rem;
+    border-radius: 0.5rem;
+    
+}
